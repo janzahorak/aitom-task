@@ -1,69 +1,67 @@
 
 //
-// MAX WIDTH 35.5em
+// MAX WIDTH 64em // 1024px
 //________________________________________
 //
 
-@media ( max-width: 35.5em ) {
+@media ( max-width: 64em ) {
 
-	header {
+	.section-one-test {
 
-		.logo {
-			display: flex;
-			justify-content: center;
-		}
+		.content {
+			padding: 2em 0.5em;
 
-		.contact {
-			display: flex;
-			justify-content: center;
-			margin-top: 1em;
-		}
-	}
-
-	.section-four {
-
-		.content{
-
-			.button-left {
+			h1 {
 				text-align: center;
-				padding: 0;
+				margin: 0;
 			}
 
-			.button-right {
+			h2 {
 				text-align: center;
-				padding: 0;
+			}
+
+			.buttons {
+				margin-bottom: 1em;
+				justify-content: center;
+			}
+
+			.pure-img {
+				margin: auto;
+				width: 46%;
 			}
 		}
 	}
 
-
-	.section-six {
-
-		img {
-			margin: auto;
-		}
-
-		.pure-form {
-			display: flex;
-			justify-content: center;
-			margin-bottom: 2em;
-		}
-	}
-
-	footer {
+	.section-two {
 
 		.content {
 
-			display: block;
+			ul {
+				margin: 0;
+				padding-left: .5em;
+			}
+		}
+	}
 
 
-			:first-child {
-				display: flex;
-				justify-content: space-evenly;
+	.section-three {
 
-				a {
-					margin: 0;
-				}
+		.content {
+			
+			margin: 0;
+
+			.hand-animation {
+				display: none;
+			}	
+		}	
+	}
+
+	.section-six {
+
+		.content {
+
+			ul {
+				text-align: left;
 			}
 		}
 	}
@@ -110,51 +108,175 @@
 
 
 //
-// MAX WIDTH 64em
+// MAX WIDTH 35.5em // 568px
 //________________________________________
 //
 
-@media ( max-width: 64em ) {
+@media ( max-width: 35.5em ) {
+
+	header {
+
+		.logo {
+			display: flex;
+			justify-content: center;
+		}
+
+		.contact {
+			display: flex;
+			justify-content: center;
+			margin-top: 1em;
+		}
+	}
+
+	.section-four {
+
+		.content{
+
+			.section-four-details {
+				flex-direction: column;
+
+				.description {
+					margin: 0;
+					padding: 0;
+					text-align: center;
+				}
+			}
+
+			.button-left {
+				text-align: center;
+				padding: 0;
+			}
+
+			.button-right {
+				text-align: center;
+				padding: 0;
+			}
+		}
+	}
+
+
+	.section-six {
+
+		img {
+			margin: auto;
+		}
+
+		.pure-form {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 2em;
+		}
+	}
+
+	footer {
+
+		.content {
+
+			display: block;
+
+
+			:first-child {
+				display: flex;
+				justify-content: space-evenly;
+
+				a {
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+
+//
+// MIN WIDTH 35.5em // 568px
+//________________________________________
+//
+
+@media ( min-width: 35.5em ) {
+	
+		.section-four {
+
+		.content {
+			h1 {
+				br {
+					display: none;
+				}	
+			}
+		}
+	}
+}
+
+
+
+
+//
+// MAX WIDTH 26.563em // 425px
+//________________________________________
+//
+
+@media (max-width: 26.563em ) {
 
 	.section-one-test {
 
 		.content {
-			padding: 2em 0;
-
+			
 			h1 {
-				text-align: center;
-				margin: 0;
+
+				font-size: 1.5em;
+
 			}
 
 			h2 {
-				text-align: center;
-			}
-
-			.buttons {
-				margin-bottom: 1em;
-				justify-content: center;
+				
+				font-size: 1em;
 			}
 
 			.pure-img {
-				margin: auto;
-				width: 46%;
+				width: 90%;
+			}
+		}	
+	}
+
+}
+
+//
+// MAX WIDTH 26.563em // 375px
+//________________________________________
+//
+
+@media (max-width: 23.438em ) {
+	
+	.section-one-test {
+
+		.content {
+
+			.button-secondary {
+				display: flex;
+				justify-content: center;
+				padding: 1.2em 2.2em;
+				margin-right: 1em;
+
+				a {
+					font-size: 0.9em;
+
+				}
+
+				img {
+					display: none;
+				}
+			}
+
+			.button-primary {
+				padding: 1em 1.2em;
 			}
 		}
 	}
 
-
-	.section-three {
-
-		.content {
-			
-			margin: 0;
-
-			.hand-animation {
-				display: none;
-			}	
-		}
-
-		
-	}
 }
+
+
+
+
+
+
 

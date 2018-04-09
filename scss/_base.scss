@@ -73,7 +73,7 @@ header {
 	.content {
 		max-width: 66.688em;
 		margin: 0 auto;
-		padding: 8.750em 0;
+		padding: 8.750em 0.5em;
 
 		color: $color-white;
 
@@ -155,11 +155,17 @@ header {
 		ul {
 
 			li {
-				margin: 2em 0;
+				display: flex;
+				align-items: center;
+				margin-bottom: 1em;
 
 				span {
 					margin-right: 1em;
 					color: $color-blue-fill;
+				}
+
+				p {
+					margin: 0;
 				}
 			}
 		}
