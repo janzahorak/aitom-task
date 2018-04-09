@@ -1,0 +1,75 @@
+//
+//
+// BUTTONS
+// ____________________________________________________
+// 
+
+.button-primary {
+	padding: 1em 3em;
+    background: #FF6600;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    box-shadow: inset 0 -2px 0 0 #C75000;
+    border: 0;
+    border-radius: 2em;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background: darken( #FF6600 , 10% );
+    }
+
+}
+
+.button-secondary {
+	padding: 1em 3em;
+    background: #5BC4F1;
+	letter-spacing: 0;
+    text-transform: uppercase;
+    box-shadow: inset 0 -2px 0 0 #2397C9;
+    border: 0;
+    border-radius: 2em;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background: darken( #5BC4F1 , 10% );
+    }
+}
+
+//
+//
+// CIRCLES
+// ____________________________________________________
+// 
+
+.circle-sm {
+    border-radius: 50%;
+
+    width: 2.375em;
+    height: 2.375em;
+    padding: 0.500em 0.8em;
+    
+    background: #fff;
+    border: 2px solid lightgrey;
+    text-align: center;
+}
+
+//
+//
+// HEADINGs
+// ____________________________________________________
+// 
+
+.underline {
+    width: 2.375em;
+    height: 0.125em;
+    background-color: #DDDDDD;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+        }

@@ -1,0 +1,160 @@
+
+//
+// MAX WIDTH 35.5em
+//________________________________________
+//
+
+@media ( max-width: 35.5em ) {
+
+	header {
+
+		.logo {
+			display: flex;
+			justify-content: center;
+		}
+
+		.contact {
+			display: flex;
+			justify-content: center;
+			margin-top: 1em;
+		}
+	}
+
+	.section-four {
+
+		.content{
+
+			.button-left {
+				text-align: center;
+				padding: 0;
+			}
+
+			.button-right {
+				text-align: center;
+				padding: 0;
+			}
+		}
+	}
+
+
+	.section-six {
+
+		img {
+			margin: auto;
+		}
+
+		.pure-form {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 2em;
+		}
+	}
+
+	footer {
+
+		.content {
+
+			display: block;
+
+
+			:first-child {
+				display: flex;
+				justify-content: space-evenly;
+
+				a {
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+
+
+//
+// MAX WIDTH 56.250em - MENU RESPONSIVE
+//________________________________________
+//
+
+@media ( max-width: 56.250em ) {
+
+	.pure-menu {
+		display: none;
+
+		.pure-menu-list {
+			display: flex;
+			flex-direction: column;
+
+			li {
+				display: inherit;
+				justify-content: center;
+				border-bottom: 1px solid $color-orange;
+			}
+		}
+	}
+
+	.responsive-bar {
+
+	}
+}
+
+@media ( min-width: 56.250em ) {
+
+	.pure-menu {
+		display: flex;
+	}
+
+	.responsive-bar {
+		display: none;
+	}
+}
+
+
+//
+// MAX WIDTH 64em
+//________________________________________
+//
+
+@media ( max-width: 64em ) {
+
+	.section-one-test {
+
+		.content {
+			padding: 2em 0;
+
+			h1 {
+				text-align: center;
+				margin: 0;
+			}
+
+			h2 {
+				text-align: center;
+			}
+
+			.buttons {
+				margin-bottom: 1em;
+				justify-content: center;
+			}
+
+			.pure-img {
+				margin: auto;
+				width: 46%;
+			}
+		}
+	}
+
+
+	.section-three {
+
+		.content {
+			
+			margin: 0;
+
+			.hand-animation {
+				display: none;
+			}	
+		}
+
+		
+	}
+}
+
